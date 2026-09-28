@@ -16,7 +16,7 @@ PROJECT_DIR = Path(__file__).resolve().parents[3]
 MODEL_PATH = (
     PROJECT_DIR
     / "checkpoints"
-    / "best_unet_v2.pth"
+    / "best_unet_v3.pth"
 )
 
 
@@ -61,7 +61,7 @@ model.eval()
 
 def segment_image(image_path: str):
     """
-    Run U-Net V2 glacier segmentation
+    Run U-Net v3 glacier segmentation
     on a satellite image.
     """
 
