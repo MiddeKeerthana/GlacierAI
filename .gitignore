@@ -1,0 +1,10 @@
+.env
+checkpoints/
+datasets/
+uploads/
+*.zip
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.vite/
